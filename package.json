@@ -1,0 +1,24 @@
+{
+  "name": "basic-express-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarabahrini/basic-express-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarabahrini/basic-express-server/issues"
+  },
+  "homepage": "https://github.com/sarabahrini/basic-express-server#readme",
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "jest": "^23.6.0"
+  }
+}
