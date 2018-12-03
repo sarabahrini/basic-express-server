@@ -1,6 +1,6 @@
 'use strict';
 
-//ASK for clarification - Don't know why but it's always required 
+//to run the file on the existing system environment 
 require('dotenv').config();
 
 // to compile ES6 code and make it understandable for every browser
@@ -12,5 +12,3 @@ require('./src/app.js').start(process.env.PORT);
 // import app from './src/app.js';
 // app.start(process.env.PORT);
 
-// import version from './src/app.js';
-// console.log('version', version)
