@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage --verbose",
+    "lint": "eslint '**/*.js'",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +20,16 @@
   },
   "homepage": "https://github.com/sarabahrini/basic-express-server#readme",
   "dependencies": {
+    "babel-env": "^2.4.1",
+    "babel-jest": "^23.6.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-register": "^6.26.0",
+    "cors": "^2.8.5",
     "dotenv": "^6.1.0",
-    "jest": "^23.6.0"
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.12",
+    "jest": "^23.6.0",
+    "supertest": "^3.3.0"
   }
 }
